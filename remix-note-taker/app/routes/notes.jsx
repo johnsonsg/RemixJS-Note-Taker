@@ -50,6 +50,14 @@ export function links() {
   return [...newNoteLinks(), ...noteListLinks()]
 }
 
+// Add meta data for pages
+export function meta() {
+  return {
+    title: 'All Notes',
+    description: 'Manange your notes with ease!'
+  }
+}
+
 export function CatchBoundary() {
   const caughtResponse = useCatch()
 

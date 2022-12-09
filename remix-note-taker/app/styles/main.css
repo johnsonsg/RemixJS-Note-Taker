@@ -3,6 +3,9 @@
 }
 
 :root {
+  --color-white: #FFFFFF;
+  --color-black: rgb(0, 0, 0);
+
   --color-primary-10: #0096E0;
   --color-primary-50: #0088CC;
   --color-primary-100: #007AB8;
@@ -21,6 +24,27 @@
   --color-secondary-400: hsl(24, 96%, 53%);
   --color-secondary-500: hsl(24, 100%, 50%);
   --color-secondary-600: hsl(22, 90%, 50%);
+
+  --color-black-100: rgb(0, 0, 0, .10);
+  --color-black-200: rgb(0, 0, 0, .20);
+  --color-black-300: rgb(0, 0, 0, .30);
+  --color-black-400: rgb(0, 0, 0, .40);
+  --color-black-500: rgb(0, 0, 0, .50);
+  --color-black-600: rgb(0, 0, 0, .60);
+  --color-black-700: rgb(0, 0, 0, .70);
+  --color-black-800: rgb(0, 0, 0, .80);
+  --color-black-900: rgb(0, 0, 0, .90);
+
+  --color-yellow-100: hsl(62, 100%, 94%);
+  --color-yellow-200: hsl(61, 100%, 91%);
+  --color-yellow-300: hsl(61, 100%, 87%);
+  --color-yellow-400: hsl(61, 100%, 84%);
+  --color-yellow-500: hsl(61, 100%, 83%);
+  --color-yellow-600: hsl(61, 100%, 80%);
+  --color-yellow-700: hsl(61, 100%, 77%);
+  --color-yellow-800: hsl(61, 100%, 73%);
+  --color-yellow-900: hsl(61, 100%, 65%);
+  --color-yellow: hsl(61, 100%, 50%);
 }
 
 body {
@@ -55,7 +79,8 @@ body {
 
 .nav-item a {
   text-decoration: none;
-  color: var(--color-primary-10);
+  color: var(--color-white);
+  font-size: 1.25rem;
 }
 
 .nav-item a:hover,

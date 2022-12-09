@@ -14,7 +14,7 @@
 
 .note {
   width: 30%;
-  background-color: var(--color-primary-700);
+  background-color: var(--color-yellow-100);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 1.5rem;
   border-radius: 4px;
@@ -23,7 +23,6 @@
 }
 
 .note:hover {
-  background-color: var(--color-primary-600);
   transform: translateY(-0.25rem);
 }
 
@@ -35,10 +34,10 @@
   justify-content: space-between;
   align-items: center;
   color: var(--color-primary-300);
-  font-weight: bold;
+  font-weight: 400;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-primary-300);
+  border-bottom: 1px solid #f8ecc5;
 }
 
 .note h2 {

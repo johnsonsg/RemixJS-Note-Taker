@@ -16,7 +16,7 @@
 
 #note-form label {
   margin-bottom: 0.5rem;
-  color: var(--color-primary-500);
+  color: var(--color-white);
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@
   background-color: var(--color-primary-200);
   border: none;
   border-radius: 2px;
-  color: var(--color-primary-800);
+  color: var(--color-white);
 }
 
 .form-actions {
@@ -41,14 +41,14 @@
   padding: 0.75rem 2rem;
   border: none;
   border-radius: 24px;
-  background-color: var(--color-primary-200);
-  color: var(--color-primary-700);
+  background-color: var(--color-primary-400);
+  color: var(--color-white);
   font-weight: bold;
   font-size: 1.05rem;
 }
 
 .form-actions button:hover {
-  background-color: var(--color-primary-200);
+  background-color: var(--color-primary-500);
 }
 
 .form-actions button:disabled {
